@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLX practice</title>
+    <!---- Font Awesome --->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
+    <!---- BootStrap ---->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header-1 -->
+    <div class="header-1">
+        <div class="row">
+            <div class="col-sm-1 logo text-center">
+                <span>Olx</span>
+            </div>
+
+            <div class="col-sm-2 header-location-bar">
+                <div class="row">
+                    <div class="col-2" style="margin: 0px; padding-top: 7px;">
+                        <i class="fas fa-search-location" style="font-size: large;"></i>
+                    </div>
+                    <div class="col-7">
+                        <p style="margin: 0px; padding-top: 5px;">pakistan</p>
+                    </div>
+                    <div class="col-3" style="margin: 0px; padding-top: 5px;">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle location-more-1" type="button"
+                                id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Lahore</a>
+                                <a class="dropdown-item" href="#">Karachi</a>
+                                <a class="dropdown-item" href="#">Multan</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 header-find-bar">
+                <div class="row">
+                    <div class="col-11">
+                        <p style="margin: 0px; padding-top: 6px;">Find cars, Mobile Phones and more...</p>
+                    </div>
+                    <div class="col-1" style="background-color: black; height: 41px; margin: 0px; padding-top: 7px;">
+                        <i class="fas fa-search-location" style="font-size: 20px; color: #ffffff;"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1 text-center login" style="margin-left: 16px; padding-top: 8px;">
+                <a href="" class="" style="color: black; border-bottom: 2px solid black; font-weight: bold;">Login</a>
+            </div>
+
+            <div class="col-1 sell-bar">
+                <h6>SELL</h6>
+            </div>
+        </div>
+    </div>
+    <!-- HEADER-1 END -->
+
+    <!-- HEADER-2 START -->
+    <div class="header-2 d-flex">
+        <div class="dropdown d">
+            <button class="btn btn-secondary dropdown-toggle"
+                style="background-color: transparent; color: black; border: none; font-weight: bold;" type="button"
+                id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                ALL CATEGORIES
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+        </div>
+        <a href="" style="padding-top: 7px; padding-left: 15px;"><span>Mobile Phones</span></a>
+        <a href="" style="padding-top: 7px; padding-left: 15px;"><span>Cars</span></a>
+        <a href="" style="padding-top: 7px; padding-left: 15px;"><span>Motorcycles</span></a>
+        <a href="" style="padding-top: 7px; padding-left: 15px;"><span>Houses</span></a>
+        <a href="" style="padding-top: 7px; padding-left: 15px;"><span>TV-Video-Audio</span></a>
+        <a href="" style="padding-top: 7px; padding-left: 15px;"><span>Tablets</span></a>
+        <a href="" style="padding-top: 7px; padding-left: 15px;"><span>Land & Plots</span></a>
+    </div>
+    <!-- HEADER-2 END -->
+    <!-- IMAGES -->
+    <div class="images d-flex">
+        <div class="img-1">
+            <img src="images/coding-1.jpg" height="300px">
+        </div>
+        <div class="img-2">
+            <img src="images/coding-2.jpg" height="300px" width="100%">
+        </div>
+        <div class="img-3">
+            <img src="images/coding-3.jpg" height="300px">
+        </div>
+    </div>
+    <!-- IMAGES-END -->
+    <!-- ORDERS -->
+    <div class="container"><br>
+        <span style="font-size: 35px; padding: 0px; margin: 0px;">Fresh recommendations</span>
+    </div>
+    <div class="orders">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="content">
+                        <div class="img">
+                            <img src="images/coding-1.jpg" width="200px" height="150px">
+                        </div>
+                        <div class="content-2" style="margin-top: 10px;">
+                            <span style="font-weight: bolder;">Rs 19,000</span>
+                            <p style="font-weight: 300;">Toshiba laptop corei5-4th</p>
+                            <div class="d-flex justify-content-between content-3">
+                                <span style="font-size: 10px; padding: 0;">DHA PHASE 8, Lahore</span>
+                                <span style="font-size: 10px;">5 DAYS AGO</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="content">
+                        <div class="img">
+                            <img src="images/coding-1.jpg" width="200px" height="150px">
+                        </div>
+                        <div class="content-2" style="margin-top: 10px;">
+                            <span style="font-weight: bolder;">Rs 19,000</span>
+                            <p style="font-weight: 300;">Toshiba laptop corei5-4th</p>
+                            <div class="d-flex justify-content-between content-3">
+                                <span style="font-size: 10px; padding: 0;">DHA PHASE 8, Lahore</span>
+                                <span style="font-size: 10px;">5 DAYS AGO</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="content">
+                        <div class="img">
+                            <img src="images/coding-1.jpg" width="200px" height="150px">
+                        </div>
+                        <div class="content-2" style="margin-top: 10px;">
+                            <span style="font-weight: bolder;">Rs 19,000</span>
+                            <p style="font-weight: 300;">Toshiba laptop corei5-4th</p>
+                            <div class="d-flex justify-content-between content-3">
+                                <span style="font-size: 10px; padding: 0;">DHA PHASE 8, Lahore</span>
+                                <span style="font-size: 10px;">5 DAYS AGO</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="content">
+                        <div class="img">
+                            <img src="images/coding-1.jpg" width="200px" height="150px">
+                        </div>
+                        <div class="content-2" style="margin-top: 10px;">
+                            <span style="font-weight: bolder;">Rs 19,000</span>
+                            <p style="font-weight: 300;">Toshiba laptop corei5-4th</p>
+                            <div class="d-flex justify-content-between content-3">
+                                <span style="font-size: 10px; padding: 0;">DHA PHASE 8, Lahore</span>
+                                <span style="font-size: 10px;">5 DAYS AGO</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="content">
+                        <div class="img">
+                            <img src="images/coding-1.jpg" width="200px" height="150px">
+                        </div>
+                        <div class="content-2" style="margin-top: 10px;">
+                            <span style="font-weight: bolder;">Rs 19,000</span>
+                            <p style="font-weight: 300;">Toshiba laptop corei5-4th</p>
+                            <div class="d-flex justify-content-between content-3">
+                                <span style="font-size: 10px; padding: 0;">DHA PHASE 8, Lahore</span>
+                                <span style="font-size: 10px;">5 DAYS AGO</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="content">
+                        <div class="img">
+                            <img src="images/coding-1.jpg" width="200px" height="150px">
+                        </div>
+                        <div class="content-2" style="margin-top: 10px;">
+                            <span style="font-weight: bolder;">Rs 19,000</span>
+                            <p style="font-weight: 300;">Toshiba laptop corei5-4th</p>
+                            <div class="d-flex justify-content-between content-3">
+                                <span style="font-size: 10px; padding: 0;">DHA PHASE 8, Lahore</span>
+                                <span style="font-size: 10px;">5 DAYS AGO</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="content">
+                        <div class="img">
+                            <img src="images/coding-1.jpg" width="200px" height="150px">
+                        </div>
+                        <div class="content-2" style="margin-top: 10px;">
+                            <span style="font-weight: bolder;">Rs 19,000</span>
+                            <p style="font-weight: 300;">Toshiba laptop corei5-4th</p>
+                            <div class="d-flex justify-content-between content-3">
+                                <span style="font-size: 10px; padding: 0;">DHA PHASE 8, Lahore</span>
+                                <span style="font-size: 10px;">5 DAYS AGO</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="content">
+                        <div class="img">
+                            <img src="images/coding-1.jpg" width="200px" height="150px">
+                        </div>
+                        <div class="content-2" style="margin-top: 10px;">
+                            <span style="font-weight: bolder;">Rs 19,000</span>
+                            <p style="font-weight: 300;">Toshiba laptop corei5-4th</p>
+                            <div class="d-flex justify-content-between content-3">
+                                <span style="font-size: 10px; padding: 0;">DHA PHASE 8, Lahore</span>
+                                <span style="font-size: 10px;">5 DAYS AGO</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="content">
+                        <div class="img">
+                            <img src="images/coding-1.jpg" width="200px" height="150px">
+                        </div>
+                        <div class="content-2" style="margin-top: 10px;">
+                            <span style="font-weight: bolder;">Rs 19,000</span>
+                            <p style="font-weight: 300;">Toshiba laptop corei5-4th</p>
+                            <div class="d-flex justify-content-between content-3">
+                                <span style="font-size: 10px; padding: 0;">DHA PHASE 8, Lahore</span>
+                                <span style="font-size: 10px;">5 DAYS AGO</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="content">
+                        <div class="img">
+                            <img src="images/coding-1.jpg" width="200px" height="150px">
+                        </div>
+                        <div class="content-2" style="margin-top: 10px;">
+                            <span style="font-weight: bolder;">Rs 19,000</span>
+                            <p style="font-weight: 300;">Toshiba laptop corei5-4th</p>
+                            <div class="d-flex justify-content-between content-3">
+                                <span style="font-size: 10px; padding: 0;">DHA PHASE 8, Lahore</span>
+                                <span style="font-size: 10px;">5 DAYS AGO</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="content">
+                        <div class="img">
+                            <img src="images/coding-1.jpg" width="200px" height="150px">
+                        </div>
+                        <div class="content-2" style="margin-top: 10px;">
+                            <span style="font-weight: bolder;">Rs 19,000</span>
+                            <p style="font-weight: 300;">Toshiba laptop corei5-4th</p>
+                            <div class="d-flex justify-content-between content-3">
+                                <span style="font-size: 10px; padding: 0;">DHA PHASE 8, Lahore</span>
+                                <span style="font-size: 10px;">5 DAYS AGO</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="content">
+                        <div class="img">
+                            <img src="images/coding-1.jpg" width="200px" height="150px">
+                        </div>
+                        <div class="content-2" style="margin-top: 10px;">
+                            <span style="font-weight: bolder;">Rs 19,000</span>
+                            <p style="font-weight: 300;">Toshiba laptop corei5-4th</p>
+                            <div class="d-flex justify-content-between content-3">
+                                <span style="font-size: 10px; padding: 0;">DHA PHASE 8, Lahore</span>
+                                <span style="font-size: 10px;">5 DAYS AGO</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="content">
+                        <div class="img">
+                            <img src="images/coding-1.jpg" width="200px" height="150px">
+                        </div>
+                        <div class="content-2" style="margin-top: 10px;">
+                            <span style="font-weight: bolder;">Rs 19,000</span>
+                            <p style="font-weight: 300;">Toshiba laptop corei5-4th</p>
+                            <div class="d-flex justify-content-between content-3">
+                                <span style="font-size: 10px; padding: 0;">DHA PHASE 8, Lahore</span>
+                                <span style="font-size: 10px;">5 DAYS AGO</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="content">
+                        <div class="img">
+                            <img src="images/coding-1.jpg" width="200px" height="150px">
+                        </div>
+                        <div class="content-2" style="margin-top: 10px;">
+                            <span style="font-weight: bolder;">Rs 19,000</span>
+                            <p style="font-weight: 300;">Toshiba laptop corei5-4th</p>
+                            <div class="d-flex justify-content-between content-3">
+                                <span style="font-size: 10px; padding: 0;">DHA PHASE 8, Lahore</span>
+                                <span style="font-size: 10px;">5 DAYS AGO</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="content">
+                        <div class="img">
+                            <img src="images/coding-1.jpg" width="200px" height="150px">
+                        </div>
+                        <div class="content-2" style="margin-top: 10px;">
+                            <span style="font-weight: bolder;">Rs 19,000</span>
+                            <p style="font-weight: 300;">Toshiba laptop corei5-4th</p>
+                            <div class="d-flex justify-content-between content-3">
+                                <span style="font-size: 10px; padding: 0;">DHA PHASE 8, Lahore</span>
+                                <span style="font-size: 10px;">5 DAYS AGO</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="content">
+                        <div class="img">
+                            <img src="images/coding-1.jpg" width="200px" height="150px">
+                        </div>
+                        <div class="content-2" style="margin-top: 10px;">
+                            <span style="font-weight: bolder;">Rs 19,000</span>
+                            <p style="font-weight: 300;">Toshiba laptop corei5-4th</p>
+                            <div class="d-flex justify-content-between content-3">
+                                <span style="font-size: 10px; padding: 0;">DHA PHASE 8, Lahore</span>
+                                <span style="font-size: 10px;">5 DAYS AGO</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="content">
+                        <div class="img">
+                            <img src="images/coding-1.jpg" width="200px" height="150px">
+                        </div>
+                        <div class="content-2" style="margin-top: 10px;">
+                            <span style="font-weight: bolder;">Rs 19,000</span>
+                            <p style="font-weight: 300;">Toshiba laptop corei5-4th</p>
+                            <div class="d-flex justify-content-between content-3">
+                                <span style="font-size: 10px; padding: 0;">DHA PHASE 8, Lahore</span>
+                                <span style="font-size: 10px;">5 DAYS AGO</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="content">
+                        <div class="img">
+                            <img src="images/coding-1.jpg" width="200px" height="150px">
+                        </div>
+                        <div class="content-2" style="margin-top: 10px;">
+                            <span style="font-weight: bolder;">Rs 19,000</span>
+                            <p style="font-weight: 300;">Toshiba laptop corei5-4th</p>
+                            <div class="d-flex justify-content-between content-3">
+                                <span style="font-size: 10px; padding: 0;">DHA PHASE 8, Lahore</span>
+                                <span style="font-size: 10px;">5 DAYS AGO</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="content">
+                        <div class="img">
+                            <img src="images/coding-1.jpg" width="200px" height="150px">
+                        </div>
+                        <div class="content-2" style="margin-top: 10px;">
+                            <span style="font-weight: bolder;">Rs 19,000</span>
+                            <p style="font-weight: 300;">Toshiba laptop corei5-4th</p>
+                            <div class="d-flex justify-content-between content-3">
+                                <span style="font-size: 10px; padding: 0;">DHA PHASE 8, Lahore</span>
+                                <span style="font-size: 10px;">5 DAYS AGO</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="content">
+                        <div class="img">
+                            <img src="images/coding-1.jpg" width="200px" height="150px">
+                        </div>
+                        <div class="content-2" style="margin-top: 10px;">
+                            <span style="font-weight: bolder;">Rs 19,000</span>
+                            <p style="font-weight: 300;">Toshiba laptop corei5-4th</p>
+                            <div class="d-flex justify-content-between content-3">
+                                <span style="font-size: 10px; padding: 0;">DHA PHASE 8, Lahore</span>
+                                <span style="font-size: 10px;">5 DAYS AGO</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="content">
+                        <div class="img">
+                            <img src="images/coding-1.jpg" width="200px" height="150px">
+                        </div>
+                        <div class="content-2" style="margin-top: 10px;">
+                            <span style="font-weight: bolder;">Rs 19,000</span>
+                            <p style="font-weight: 300;">Toshiba laptop corei5-4th</p>
+                            <div class="d-flex justify-content-between content-3">
+                                <span style="font-size: 10px; padding: 0;">DHA PHASE 8, Lahore</span>
+                                <span style="font-size: 10px;">5 DAYS AGO</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="content">
+                        <div class="img">
+                            <img src="images/coding-1.jpg" width="200px" height="150px">
+                        </div>
+                        <div class="content-2" style="margin-top: 10px;">
+                            <span style="font-weight: bolder;">Rs 19,000</span>
+                            <p style="font-weight: 300;">Toshiba laptop corei5-4th</p>
+                            <div class="d-flex justify-content-between content-3">
+                                <span style="font-size: 10px; padding: 0;">DHA PHASE 8, Lahore</span>
+                                <span style="font-size: 10px;">5 DAYS AGO</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="content">
+                        <div class="img">
+                            <img src="images/coding-1.jpg" width="200px" height="150px">
+                        </div>
+                        <div class="content-2" style="margin-top: 10px;">
+                            <span style="font-weight: bolder;">Rs 19,000</span>
+                            <p style="font-weight: 300;">Toshiba laptop corei5-4th</p>
+                            <div class="d-flex justify-content-between content-3">
+                                <span style="font-size: 10px; padding: 0;">DHA PHASE 8, Lahore</span>
+                                <span style="font-size: 10px;">5 DAYS AGO</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="content">
+                        <div class="img">
+                            <img src="images/coding-1.jpg" width="200px" height="150px">
+                        </div>
+                        <div class="content-2" style="margin-top: 10px;">
+                            <span style="font-weight: bolder;">Rs 19,000</span>
+                            <p style="font-weight: 300;">Toshiba laptop corei5-4th</p>
+                            <div class="d-flex justify-content-between content-3">
+                                <span style="font-size: 10px; padding: 0;">DHA PHASE 8, Lahore</span>
+                                <span style="font-size: 10px;">5 DAYS AGO</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="content">
+                        <div class="img">
+                            <img src="images/coding-1.jpg" width="200px" height="150px">
+                        </div>
+                        <div class="content-2" style="margin-top: 10px;">
+                            <span style="font-weight: bolder;">Rs 19,000</span>
+                            <p style="font-weight: 300;">Toshiba laptop corei5-4th</p>
+                            <div class="d-flex justify-content-between content-3">
+                                <span style="font-size: 10px; padding: 0;">DHA PHASE 8, Lahore</span>
+                                <span style="font-size: 10px;">5 DAYS AGO</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="content">
+                        <div class="img">
+                            <img src="images/coding-1.jpg" width="200px" height="150px">
+                        </div>
+                        <div class="content-2" style="margin-top: 10px;">
+                            <span style="font-weight: bolder;">Rs 19,000</span>
+                            <p style="font-weight: 300;">Toshiba laptop corei5-4th</p>
+                            <div class="d-flex justify-content-between content-3">
+                                <span style="font-size: 10px; padding: 0;">DHA PHASE 8, Lahore</span>
+                                <span style="font-size: 10px;">5 DAYS AGO</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ORDERS END -->
+    <!-- FOOTER -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="footer-heading">
+                        <h5>POPULAR CATEGORIES</h5>
+                        <div class="footer-content">
+                            <a href="">Cars</a><br>
+                            <a href="">Flats for rent</a><br>
+                            <a href="">Jobs</a><br>
+                            <a href="">Mobile Phones</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="footer-heading">
+                        <h5>TRENDING SEARCHES</h5>
+                        <div class="footer-content">
+                            <a href="">Bikes</a><br>
+                            <a href="">Watches</a><br>
+                            <a href="">Books</a><br>
+                            <a href="">Dogs</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-2">
+                    <div class="footer-heading">
+                        <h5>ABOUT US</h5>
+                        <div class="footer-content">
+                            <a href="">About OLX Group</a><br>
+                            <a href="">OLX Blog</a><br>
+                            <a href="">Contact Us</a><br>
+                            <a href="">OLX for Businesses</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-2">
+                    <div class="footer-heading">
+                        <h5>OLX</h5>
+                        <div class="footer-content">
+                            <a href="">Help</a><br>
+                            <a href="">Sitemap</a><br>
+                            <a href="">Legal & Privacy information</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-2">
+                    <div class="footer-heading">
+                        <h5>FOLLOW US</h5>
+                        <div class="footer-content">
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href="" style="margin-left: 15px;"><i class="fab fa-twitter"></i></a>
+                            <a href="" style="margin-left: 15px;"><i class="fab fa-youtube"></i></a>
+                            <a href="" style="margin-left: 15px;"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-2">
+        <div class="container d-flex justify-content-between" style="padding-top: 12px;">
+            <div class="d-flex">
+                <span>Other Countries</span>
+                <p style="font-size: smaller; margin-top: 3px;">India-south Africa-Indonesia</p>
+            </div>
+            <div class="d-flex">
+                <span>Free Classifieds in Pakistan</span>
+                <p style="font-size: smaller; margin-top: 3px;">.©2006-2020 OLX</p>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
